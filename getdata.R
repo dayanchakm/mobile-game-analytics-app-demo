@@ -8,4 +8,4 @@ query <- bq_project_query(projectid, query = sql)
 
 dt <- bq_table_download(query, bigint = "numeric")
 
-write.csv(dt, file = "data.csv", row.names = FALSE)
+write.csv(dt, file = "data/data.csv", row.names = FALSE)

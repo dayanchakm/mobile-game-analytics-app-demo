@@ -1,6 +1,6 @@
 
 
-dt <- read.csv("data.csv")
+dt <- read.csv("data/data.csv")
 
 apply(dt, 2, function(x) sum(is.na(x)))
 
